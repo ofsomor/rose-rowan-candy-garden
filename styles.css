@@ -39,3 +39,7 @@ details[open] { padding-bottom: .75rem; }
 .site-footer p { margin: 0; }
 @media (max-width: 650px) { .site-header { padding: 1rem 1.25rem; align-items: flex-start; flex-direction: column; gap: .6rem; } main { padding: 2rem 1.25rem 3rem; } .hero { grid-template-columns: 1fr; gap: 1.5rem; padding-top: 0; } .hero-icon { grid-row: 1; width: 112px; border-radius: 1.6rem; } .page-links { grid-template-columns: 1fr; } .site-footer { padding-inline: 1.25rem; } }
 @media print { .site-header, .site-footer, .skip-link, .contents { display: none; } body { color: #000; background: #fff; font-size: 11pt; } main { padding: 0; } a { color: inherit; } }
+
+.gameplay-media { display: block; width: 100%; max-width: 24rem; height: auto; border-radius: 1rem; }
+figure { margin: 1.5rem 0; }
+figcaption { max-width: 36rem; color: var(--muted); margin-top: .6rem; }
